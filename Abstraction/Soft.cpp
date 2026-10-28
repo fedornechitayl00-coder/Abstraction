@@ -39,6 +39,6 @@ void Soft::setCompany(std::string company)
 
 void Soft::showInfo() const
 {
-    std::cout << "\nName:\t" << name <<
+    std::cout << "\nName:\t\t" << name <<
         "\nCompany:\t" << company << "\n";
 }

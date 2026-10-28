@@ -1,6 +1,6 @@
-#include "Soft.h"
+#include "FreeSoft.h"
 
 int main() {
-	Soft m("Name", "Company");
-	
+	FreeSoft paint_soft("Paint", "Microsoft");
+	paint_soft.showInfo();
 }
