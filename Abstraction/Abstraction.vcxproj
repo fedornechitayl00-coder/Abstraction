@@ -139,7 +139,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Polimorthism\Polimorthism\main.cpp" />
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="Comercial.cpp" />
     <ClCompile Include="Date.cpp" />
