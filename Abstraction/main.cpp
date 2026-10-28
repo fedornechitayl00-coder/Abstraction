@@ -12,5 +12,5 @@ int main() {
 	photoshop.showInfo();
 
 	std::cout << "\n___________________________\n";
-	Comercial VisualStudio("Visual Studio", "Microsoft", Date(), 30, 100)
+	Comercial VisualStudio("Visual Studio", "Microsoft", Date(), 30, 100);
 }
