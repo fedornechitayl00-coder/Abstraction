@@ -11,7 +11,7 @@ FreeSoft::FreeSoft(const std::string& name, const std::string& company)
 
 FreeSoft::~FreeSoft()
 {
-    std::cout << "\n~FreeSoft()\n";
+    std::cout << "\n\033[34m~FreeSoft()\033[0m\n";
 }
 
 bool FreeSoft::isAvailable() const

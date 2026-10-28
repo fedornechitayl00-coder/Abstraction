@@ -14,7 +14,7 @@ Soft::Soft(std::string name, std::string company)
 
 Soft::~Soft()
 {
-    std::cout << "\ncall destructor of base class\n";
+    std::cout << "\n\033[34mcall destructor of base class\033[0m\n";
 }
 
 std::string Soft::getName() const
