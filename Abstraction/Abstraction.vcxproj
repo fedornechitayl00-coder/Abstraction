@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Comercial.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="FreeSoft.cpp" />
     <ClCompile Include="main.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="Soft.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Comercial.h" />
     <ClInclude Include="Date.h" />
     <ClInclude Include="FreeSoft.h" />
     <ClInclude Include="Shareware.h" />
