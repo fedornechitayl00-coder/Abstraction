@@ -44,7 +44,7 @@ bool Shareware::isAvailable() const
 void Shareware::saveToFile(ofstream& file) const
 {
     file << "\nShareware" <<
-        name << company <<
+        name << "\n" << company <<
         "\n" << install.getDay() << " " << install.getMonth() << " " << install.getYear() 
         << "\n" << days << std::endl;
 }

@@ -1,16 +1,24 @@
-#include "FreeSoft.h"
-#include "Shareware.h"
-#include "Comercial.h"
+#include "Admin.h"
 
 int main() {
-	FreeSoft paint_soft("Paint", "Microsoft");
-	paint_soft.showInfo();
+	//FreeSoft paint_soft("Paint", "Microsoft");
+	//paint_soft.showInfo();
 
-	std::cout << "\n___________________________\n";
+	//std::cout << "\n___________________________\n";
 
-	Shareware photoshop("Photoshop", "Adobe", Date(2019, 8, 12), 7);
-	photoshop.showInfo();
+	//Shareware photoshop("Photoshop", "Adobe", Date(2019, 8, 12), 7);
+	//photoshop.showInfo();
 
-	std::cout << "\n___________________________\n";
-	Comercial VisualStudio("Visual Studio", "Microsoft", Date(), 30, 100);
+	//std::cout << "\n___________________________\n";
+	//Comercial VisualStudio("Visual Studio", "Microsoft", Date(), 30, 100);
+
+	Admin user;
+
+	user.addSoft(new FreeSoft("Notepad", "Noname"));
+
+	user.sortSoftByName();
+	user.findSoftByName("Paint");
+	user.findSoftByName("CLine");
+	
+	user.saveToFile();
 }
